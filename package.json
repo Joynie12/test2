@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build": "webpack --mode 'production'"
   },
   "repository": {
     "type": "git",
@@ -14,9 +15,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Joynie12/test2/issues"
+    "url": "https://github.com/Joynie12/classes/issues"
   },
-  "homepage": "https://github.com/Joynie12/test2#readme",
+  "homepage": "https://github.com/Joynie12/classes#readme",
   "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.4",
